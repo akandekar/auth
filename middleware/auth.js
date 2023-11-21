@@ -22,10 +22,5 @@ exports.verifyUserToken = (req, res, next) => {
 
 }
 exports.IsUser = async (req, res, next) => {
-    next();
-    // console.log(req.user.user_type)
-    // if (req.user.user_type === 1) {
-    //     next();
-    // }
-    // return res.status(401).send("Unauthorized!");   
+    next();  
 }
